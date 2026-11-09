@@ -110,3 +110,13 @@ Potestas AI is an independent AI testing company in Providence, Rhode Island, fo
 - LinkedIn: [linkedin.com/in/josephcirellojr](https://www.linkedin.com/in/josephcirellojr)
 
 The author sells the audit this comparison sits beside. That is a conflict of interest, and it is stated here as it is in the paper.
+
+---
+
+### Potestas AI
+
+**[Potestas AI](https://potestasai.com)** tests what AI agents do, not what they say, and publishes the evidence.
+
+- **Putting an AI agent in front of money, patients or customers?** [See the screening](https://potestasai.com/screening) or [book a 30-minute call](https://calendly.com/joseph-cirello-potestasai).
+- **Free book:** [Your AI Is Safe. Says Who?](https://potestasai.com/book)
+- **What we find, as we find it:** [potestasai.com/findings](https://potestasai.com/findings)
