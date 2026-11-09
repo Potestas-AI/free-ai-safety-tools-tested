@@ -115,6 +115,8 @@ The author sells the audit this comparison sits beside. That is a conflict of in
 
 ### Potestas AI
 
+*The restaurant is inspecting its own kitchen.*
+
 **[Potestas AI](https://potestasai.com)** tests what AI agents do, not what they say, and publishes the evidence.
 
 - **Putting an AI agent in front of money, patients or customers?** [See the screening](https://potestasai.com/screening) or [book a 30-minute call](https://calendly.com/joseph-cirello-potestasai).
