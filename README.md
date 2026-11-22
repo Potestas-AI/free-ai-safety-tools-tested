@@ -101,7 +101,7 @@ Joseph Cirello. *Instrument Failures and Hidden Costs in Public AI Safety Evalua
 
 ## About Potestas AI
 
-Potestas AI is an independent AI testing company in Providence, Rhode Island, founded by Joseph Cirello, U.S. Army veteran. It runs these seven industry-standard tests and its own 258-scenario agentic say-vs-do suite against the model you name, grades the result off the tool-call log, and delivers a findings report and a sealed evidence pack within 72 hours, for $3,000. The fee credits in full toward the $25,000 audit.
+Potestas AI is an independent AI testing company in Providence, Rhode Island, founded by Joseph Cirello, U.S. Army veteran. It runs these seven industry-standard tests and its own 258-scenario agentic say-vs-do suite against the model you name, grades the result off the tool-call log, and delivers a findings report and a sealed evidence pack within 72 hours, for $5,000. The fee credits in full toward the $25,000 audit.
 
 - Website: [potestasai.com](https://www.potestasai.com)
 - Public findings, dated: [potestasai.com/findings](https://www.potestasai.com/findings)
