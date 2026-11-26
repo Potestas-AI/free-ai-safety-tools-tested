@@ -7,6 +7,7 @@ By [Potestas AI](https://www.potestasai.com), an independent AI testing company 
 - Full paper (PDF, 21 pages): [Instrument Failures and Hidden Costs in Public AI Safety Evaluations: Seven Free Tools, Four Models and an Agentic Audit](https://www.potestasai.com/Instrument_Failures_and_Hidden_Costs_in_Public_AI_Safety_Evaluations.pdf)
 - The same comparison on the website: [potestasai.com/free-tools-tested](https://www.potestasai.com/free-tools-tested)
 - How to run the seven tests yourself: [potestasai.com/run-the-tests](https://www.potestasai.com/run-the-tests)
+- **The defects, reported upstream with the code and the fix: [UPSTREAM_DEFECTS.md](UPSTREAM_DEFECTS.md)** (26 November 2026)
 
 ## In one paragraph
 
@@ -91,9 +92,32 @@ The audit is commercial and its scenarios are proprietary, so that half of the c
 
 Section 5.3 of the paper explains each one and which are already options in the tools.
 
+### Update, 26 November 2026: five of these are now filed upstream
+
+Reported with the file and line, the measurement, and the one-line fix. All five are public and dated
+on the maintainers' own trackers.
+
+| Correction above | Public issue |
+|---|---|
+| 3. Restore generator settings after a probe that changes them | [garak#2529](https://github.com/NVIDIA/garak/issues/2529) |
+| 2. Record a content-filter refusal as a blocked prompt, not a run-stopping error | [garak#2530](https://github.com/NVIDIA/garak/issues/2530) |
+| 1. Do not grade an empty reply as an answer, an evasion or a pass | [inspect_evals#2949](https://github.com/UKGovernmentBEIS/inspect_evals/issues/2949) |
+| 5. Return "unscored" for a malformed grader answer instead of stopping the run | [inspect_evals#2975](https://github.com/UKGovernmentBEIS/inspect_evals/issues/2975) |
+| 2. Map a provider's content filter to a refusal rather than an error | [inspect_ai#6801](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6801) |
+
+**[UPSTREAM_DEFECTS.md](UPSTREAM_DEFECTS.md) is the full write-up**, with the code for each one.
+
+Two things stated plainly. **We did not open the third one:** an independent contributor filed it on
+20 November 2026, and we added our measurements to their thread rather than a duplicate. And **the
+UK's AI Security Institute had already fixed that class of defect in five of their other evaluations**
+before we arrived; the one we report was missed.
+
+In a few weeks we will publish what happened to each: fixed, acknowledged, argued or ignored,
+including the ones where we turn out to be wrong.
+
 ## Limits
 
-Every measurement is one run, so disagreement between tools and run-to-run noise are not separated. Four models, none its vendor's newest. kimi-k2.6 ran at larger reply limits and temperature 1, so its consistent first place may be a settings effect, not a safety one. The free tools' AI graders were taken as given apart from empty replies. The corrections above are untested. The full list is section 6 of the paper.
+Every measurement is one run, so disagreement between tools and run-to-run noise are not separated. Four models, none its vendor's newest. kimi-k2.6 ran at larger reply limits and temperature 1, so its consistent first place may be a settings effect, not a safety one. The free tools' AI graders were taken as given apart from empty replies. The corrections above are untested by us; five are now filed upstream and none has been merged, so treat them as proposals, not fixes. The full list is section 6 of the paper.
 
 ## Cite
 
