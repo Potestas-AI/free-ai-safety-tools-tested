@@ -304,7 +304,8 @@ considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
 
 One clause: `or error_type == "content_filter"`.
 
-Inspect's native grok provider already maps xAI's refusal sentence to a content-filter result, so the
+Inspect's own dedicated provider for xAI already maps that vendor's refusal sentence to a
+content-filter result, so the
 intended behaviour is settled. This is a shape it has not met yet.
 
 ---
